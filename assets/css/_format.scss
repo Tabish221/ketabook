@@ -92,6 +92,36 @@ button{background:transparent;border:none;border-radius:0px;font-family:$fontFam
     }
 }
 
+// FONT WIGHT
+.fw1 {
+    font-weight: 100 !important;
+}
+.fw2 {
+    font-weight: 200 !important;
+}
+.fw3 {
+    font-weight: 300 !important;
+}
+.fw4 {
+    font-weight: 400 !important;
+}
+.fw5 {
+    font-weight: 500 !important;
+}
+.fw6 {
+    font-weight: 600 !important;
+}
+.fw7 {
+    font-weight: 700 !important;
+}
+.fw8 {
+    font-weight: 800 !important;
+}
+.fw9 {
+    font-weight: 900 !important;
+}
+
+
 // FONT SIZE
 .fs-xxs {
     color: $corol2;
@@ -138,18 +168,25 @@ button{background:transparent;border:none;border-radius:0px;font-family:$fontFam
         color: $corol1;
     }
 }
-.fs-xl {
+.fs-xxl {
     color: $corol2;
     font-size: 128px;
     font-weight: 800;
-    line-height: 1.15;
+    line-height: 1;
 
     span {
         color: $corol1;
     }
 }
 
+
+
 // PADDING & MARGIN
 .hd-pad {
     padding-bottom: 75px;
+}
+
+.padX20 {
+    padding-right: 20%;
+    padding-left: 20%;
 }

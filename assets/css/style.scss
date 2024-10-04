@@ -59,6 +59,12 @@
 			height: 100%;
 		}
 	}
+
+	.welcomeSec-cont {
+		p {
+			padding: 20px 0 25px;
+		}
+	}
 }
 
 .processSection {
@@ -112,4 +118,166 @@
 	}
 }
 
+.subscriptionSection {
+	padding: 200px 0 0px;
+}
+
+.subscriptSec-cont {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	gap: 25px;
+}
+
+.subscriptSec-main{
+	&.v2 {
+		.subscriptSec-img {
+			margin: -200px -150px 0px -20px;
+		}
+
+		.subscriptSec-cont {
+			padding-top: 120px;
+		}
+	}
+
+	&.v3 {
+		padding-top: 100px;
+
+		.subscriptSec-cont {
+			padding-top: 80px;
+		}
+
+		.subscriptSec-img {
+			margin: 0 0 0px -120px;
+		}
+	}
+
+	&.v4 {
+		padding-top: 110px;
+
+		.subscriptSec-img {
+			margin-bottom: -90px;
+		}
+	}
+}
+
+.kidSection {
+	background-color: #D9D9D9;
+	padding: 60px 0 120px;
+
+	.kidSec-main {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 0 -12px;
+
+			li {
+				flex: 0 0 20%;
+				max-width: 20%;
+				padding: 12px;
+			}
+		}
+	}
+}
+.exploreSection {
+	padding: 160px 0 100px; 
+
+	.exploreSec-right {
+		padding-left: 8%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+
+		.fs-xxl {
+			&:nth-child(1) {
+				color: #CDCAF9;
+			}
+
+			&:nth-child(2) {
+				color: #F56068;
+			}
+
+			&:nth-child(3) {
+				color: #45FCBA;
+			}
+		}
+	}
+}
+
+footer {
+	background-color: $corol2;
+	padding: 80px 0 30px;
+
+	.widget {
+		padding: 0 7%;
+
+		h6 {
+			color: #FFF;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 1.2;
+			padding-bottom: 20px;
+		}
+
+		ul {
+			display: flex;
+			flex-direction: column;
+			gap: 15px;
+			li {
+				a {
+					color: #FFF;
+					font-size: 24px;
+					font-weight: 500;
+					line-height: 1.2;
+
+					&:hover {
+						color: $corol1;
+					}
+				}
+			}
+		}
+	}
+}
+
+.copyright {
+	background-color: $corol2;
+	padding: 20px 0 45px;
+
+	.copyright-social {
+		h6 {
+			color: #FFF;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 1.2;
+			padding-bottom: 20px;
+		}
+
+		ul {
+			display: flex;
+			align-items: center;
+			gap: 20px;
+
+			li {
+				a {
+					color: #fff;
+
+					&:hover {
+						color: $corol1;
+					}
+				}
+			}
+		}
+	}
+
+	.copyright-cont {
+		p {
+			text-align: end;
+			color: #fff;
+			font-size: 24px;
+			font-weight: 500;
+			line-height: 1.2;
+		}
+	}
+}
 
